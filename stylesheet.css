@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.header {
+    background-image: url(ikan1.jpg);
+    background-size: cover;
+}
+
+.header-logo {
+
+}
+
+.section-title {
+    
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 100px 0;
+    height: 520px;
+    
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.top-wrapper p {
+    margin-bottom: 3px;
+    font-size: 24px;
+    color: white;
+    text-shadow:  1px 1px 10px black;
+}
+
+.fish-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fish-gallery img {
+    width: 25%;
+    padding-right: 10px;
+}
+
+.btn-wrapper {
+    margin: 75px;
+}
+
+.btn-wrapper a {
+    margin: 10px 0;
+}
+
+.see-more {
+    background-color: rgba(209, 113, 24, 0.5);
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: white;
+}
