@@ -102,20 +102,21 @@ li {
   .btn-buy:hover {
     opacity: 1;
   }
+  h1.gallery-title {
+    text-align: center;
+  }
 
   .fish-gallery {
     display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 343px;
+    justify-content: space-between;
   }
-
+  
   .fish-gallery img {
-    width: 50%;
+    width: 45%;
   }
-  .footer {
-    display: flex;
-    background-color: rgba(0,0,0,0.8);
-  }
-
-  .footer h1 {
-    color: white;
-    padding-left: 18px;
+  .txt-content {
   }
